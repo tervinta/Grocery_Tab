@@ -1,0 +1,60 @@
+.paymentform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .credit-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-number {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card-holder {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .card-expiry-cvc {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .expiry,
+  .cvc {
+    font-size: 1.2em;
+    flex: 1;
+    margin-bottom: 10px;
+  }
+  
+  
+  .formgroup {
+    margin-bottom: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 26%;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

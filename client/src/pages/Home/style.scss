@@ -1,0 +1,202 @@
+#home-page {
+    height: 70vh;
+
+    h1 {
+        margin: 4rem auto;
+        text-align: center;
+    }
+
+    p {
+        width: 90%;
+        max-width: 1024px;
+        font-size: 1.3rem;
+        line-height: 180%;
+        margin: 2rem auto;
+    }
+}
+.shipping{
+    background-color: white;
+    width: 100%;
+    height: 120vh;
+    
+
+    >main{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: 100%;
+        background-color: white;
+        max-width: 900px;
+        margin: auto;
+        padding: 2rem;
+
+
+        >h1{
+            text-transform: uppercase;
+            align-items: center;
+            margin: 3rem;
+            font: 100 3rem 'ubuntu';
+            text-align: center;
+        }
+
+        >form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            >div{
+                width: 70%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                > label{
+                    white-space: nowrap;
+                }
+                >input,>select{
+                    width: 450px;
+                    padding: 0.5rem 1rem;
+                    outline: none;
+                    border: 1px solid rgba(0,0, 0, 0.172);
+                    border-radius: 5px;
+                    margin: 1rem;
+                    font-size: 1rem;
+                }
+
+            }
+
+           
+            >Link{
+                background-color: rgb(0, 60, 255);
+                color: black;
+                outline: none;
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+                margin: 1rem;
+                text-align: center;
+                cursor: pointer;
+                font-size: 1.1rem; 
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .shipping{
+        >main{
+            >form{
+                >div{
+                    width: 100%;
+
+                    >input,>select{
+                        width: 100%;
+                    }
+                }
+
+                >button{
+                    width: 100%;
+                }
+            }
+        }
+    }
+  }
+
+
+
+.confirmOrder{
+    background-color: white;
+    width: 100%;
+    height: 78vh;
+
+    >main{
+        height: 100%;
+        background-color: white;
+        max-width: 900px;
+        margin: auto;
+        padding: 2rem;
+        >h1{
+            text-transform: uppercase;
+            align-items: center;
+            margin: 2rem;
+            font: 100 3rem 'Roboto';
+            text-align: center;
+            
+
+        }
+
+        >form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            >div{
+                background-color: rgb(233, 233, 233);
+                margin: 1rem;
+                border-radius: 5px;
+                padding: 1rem;
+                width: 70%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+
+                > label{
+                    white-space: nowrap;
+                }
+               
+
+            }
+
+            >button{
+                background-color: blue;
+                color: white;
+                outline: none;
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+                margin: 1rem;
+                text-align: center;
+                cursor: pointer;
+                font-size: 1.1rem;
+            }
+            .button1{
+                flex:wrap;
+                flex-grow: 10;
+                background-color: blue;
+                color: white;
+                outline: none;
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+                margin: 1rem;
+                text-align: center;
+                cursor: pointer;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width : 600px) {
+   .confirmOrder >main >form{
+    div{
+        width: 100%;
+    }
+    >button{
+        width: 100%;
+    }
+   }
+    
+  }
+
+  #Header-Home{
+    background-color: lightgray;
+    padding: 1%;
+  }
+  #checkout{
+    color:green;
+  }
+ 
+
+#title-home{
+    margin-right: 85%;
+}

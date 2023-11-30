@@ -1,0 +1,22 @@
+h1 {
+    margin: 4rem auto;
+    text-align: center;
+  }
+  
+  p {
+    width: 90%;
+    max-width: 1024px;
+    font-size: 1.3rem;
+    line-height: 180%;
+    margin: 2rem auto;
+  }
+  
+  .my-1 {
+    margin-top: var(--spacing-one);
+    margin-bottom: var(--spacing-one);
+  }
+  
+  .my-2 {
+    margin-top: var(--spacing-two);
+    margin-bottom: var(--spacing-two);
+  }

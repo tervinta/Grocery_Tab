@@ -1,0 +1,47 @@
+header {
+    margin: 0 0 0rem;
+    padding: 2rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 3px 1px rgba(150, 150, 150, 0.8);
+    background-color: #434343;
+    color: #fff;
+
+    
+
+    nav {
+        display: inline-block;
+        font-size: 1.5rem;
+        margin-right: 1rem;
+        vertical-align: bottom;
+
+        a,
+        a:active,
+        a:visited,
+        .logout-link {
+            text-decoration: none;
+            color: #fff;
+            opacity: 0.7;
+            margin: 0 1rem;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 1;
+                text-shadow: 1px 1px 2px #555;
+            }
+        }
+
+        .logout-link {
+            display: inline;
+            margin: 0;
+            margin-left: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar{
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <head>
+
+    </head>
+
+    <body>
+        <!-- Need Stripe Key -->
+        <script src="https://js.stripe.com/v3/"></script>
+        
+        <script>
+            const stripe = Stripe("sk_test_4eC39HqLyjWDarjtT1zdp7dc");
+            stripe.redirectToCheckout({
+              sessionId:
+                "cs_test_a1CVeQcHIoHEIQBZkAnTso1K3e0E2vrBLyxd4C31dgq3MJaYrwRCDT2gvM",
+            });
+          </script>
+    </body>
+</html>
